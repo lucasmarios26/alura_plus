@@ -5,6 +5,7 @@
     --cor-botão: #167bf7;
     --fundo_primario:#00030C;
     --fonte-principal: 'Inter', sans-serif;
+    --cor-texto-secundario: #f9f9f9;
 
 
 }
@@ -35,7 +36,7 @@ body {
 
 .container__botao {
     background-color: var(--cor-botão);
-    border-radius: 5px;
+    border-radius: 0.3em;
     padding: 1em;
     display: block;
     color: var(--cor_principal);
@@ -61,4 +62,46 @@ body {
 }
 .container__caixa {
     margin: 0 6em;
+}
+
+.imagem__secundaria {
+    width: 80%;
+}
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao__titulo {
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--cor_principal);
+}
+.descricao__texto {
+    font-size: 1em;
+    color: var(--cor-secundaria);
+    margin-top: 0.3em;
+}
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+.container__descricao {
+    padding: 2em;
+}
+.dispositivos {
+    text-align: center;
+}
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos__titulo {
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--cor_principal);
+}
+.lista__item {
+    font-size: 2em;
 }
