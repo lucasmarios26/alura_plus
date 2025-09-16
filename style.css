@@ -1,0 +1,64 @@
+:root {
+
+    --cor_principal:#ffffff;
+    --cor-secundaria:#c0c0c0;
+    --cor-botão: #167bf7;
+    --fundo_primario:#00030C;
+    --fonte-principal: 'Inter', sans-serif;
+
+
+}
+body {
+    background-color: var(--fundo_primario);
+    color: var(--cor_principal);
+    font-family: var(--fonte-principal);
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    }
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--cor-botão);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    color: var(--cor_principal);
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.botao_secudario {
+    background-color: transparent;
+    border: 2px solid var(--cor_principal);
+}
+
+.container__aviso {
+    font-size: 0.75rem;
+    color: var(--cor-secundaria);
+}
+
+.container__titulo {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+.imagem__promocao {
+    margin: 1em 0 2em 0;
+}
+.container__caixa {
+    margin: 0 6em;
+}
