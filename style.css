@@ -6,7 +6,8 @@
     --fundo_primario:#00030C;
     --fonte-principal: 'Inter', sans-serif;
     --cor-texto-secundario: #f9f9f9;
-
+    --cor-clique: purple;
+    --cor-botão-efeito: #519cf7;
 
 }
 body {
@@ -121,12 +122,29 @@ body {
 .lista__link {
     font-size: 1em;
     text-decoration: none;
-    color: var(--cor-secundaria);
-    margin: 0 1em;
+    color: var(--cor-principal);
+    margin: 0 0.5em;
 }
 .rodape__texto {
     font-size: 0.75em;
-    color: var(--cor-secundaria);
     margin-bottom: 2em;
+    color: var(--cor-principal);
 }
-    
+.lista__link a:hover {
+    color: var(--cor-botão);
+}
+.lista__link a:active {
+    color: var(--cor-clique);
+}
+.container__botao:hover {
+    background-color: var(--cor-botão-efeito);
+    color: var(--fundo_primario);
+}
+.container__botao:active {
+    background-color: var(--cor-clique);
+    color: var(--fundo_primario);
+}
+.botao_secudario:hover {
+    background-color: hsla(204, 100%, 70%, 0.5);
+    color: var(--fundo_primario);
+}
