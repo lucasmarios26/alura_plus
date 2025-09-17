@@ -148,7 +148,7 @@ body {
     background-color: hsla(204, 100%, 70%, 0.5);
     color: var(--fundo_primario);
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 1200px) {
     .container {
         grid-template-columns: 100%;
         height: auto;
