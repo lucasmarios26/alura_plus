@@ -104,4 +104,29 @@ body {
 }
 .lista__item {
     font-size: 2em;
+    font-family: var(--fonte-principal);
 }
+.rodape {
+    text-align: center;
+}
+.rodape__logo {
+    margin: 2em 0;
+}
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+.lista__link {
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    margin: 0 1em;
+}
+.rodape__texto {
+    font-size: 0.75em;
+    color: var(--cor-secundaria);
+    margin-bottom: 2em;
+}
+    
