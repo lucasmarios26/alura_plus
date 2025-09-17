@@ -148,3 +148,22 @@ body {
     background-color: hsla(204, 100%, 70%, 0.5);
     color: var(--fundo_primario);
 }
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 100%;
+        height: auto;
+    }
+    .secundario {
+        margin: 0 2em;
+    }
+    .imagem__secundaria {
+        width: 100%;
+    }
+    .container__caixa {
+        margin: 0 2em;
+    }
+    .dispositivos__lista {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
