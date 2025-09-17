@@ -152,6 +152,7 @@ body {
     .container {
         grid-template-columns: 100%;
         height: auto;
+        text-align: center;
     }
     .secundario {
         margin: 0 2em;
